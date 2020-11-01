@@ -1,0 +1,680 @@
+{
+  "bytes": 245684,
+  "datahub": {
+    "created": "2017-11-08T21:56:41.569075",
+    "findability": "published",
+    "flowid": "core/sea-level-rise/7",
+    "modified": "2018-03-15T06:40:32.033246",
+    "owner": "core",
+    "ownerid": "core"
+  },
+  "description": "This data contains cumulative changes in sea level for the world’s oceans since 1880, based on a combination of long-term tide gauge measurements and recent satellite measurements.",
+  "hash": "11bee2522b61b1b82fbc8cf9717834df",
+  "homepage": "http://www3.epa.gov/climatechange/science/indicators/oceans/sea-level.html",
+  "id": "core/sea-level-rise",
+  "license": "ODC-PDDL-1.0",
+  "name": "sea-level-rise",
+  "resources": [
+    {
+      "bytes": 3700,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/3218c3c58e89cf1700a2e7e19b51e987.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "csiro_alt_gmsl_mo_2015_original",
+      "path": "archive/csiro_alt_gmsl_mo_2015.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "description": "Year and month of GMSL calculation (YYYY-MMM)",
+            "format": "any",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "description": "Global Mean Sea Level in mm",
+            "name": "GMSL",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 227,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/00441d78cf9dfe5fab2209290a1a787c.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "csiro_alt_gmsl_yr_2015_original",
+      "path": "archive/csiro_alt_gmsl_yr_2015.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of GMSL calculation (YYYY)",
+            "format": "any",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "description": "Global Mean Sea Level in mm",
+            "name": "GMSL",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 31593,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/7aabdc1e94dd51f859a1a21063667246.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "csiro_recons_gmsl_mo_2015_original",
+      "path": "archive/csiro_recons_gmsl_mo_2015.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "description": "Year and month of GMSL calculation (YYYY-MMM)",
+            "format": "any",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "description": "Reconstructed Global Mean Sea Level in mm",
+            "name": "GMSL",
+            "type": "number"
+          },
+          {
+            "description": "uncertainty due to reconstruction",
+            "name": "GMSL uncertainty",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 2123,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/e066c2f35b1f4bbf96e6c8dae1ca401b.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "csiro_recons_gmsl_yr_2015_original",
+      "path": "archive/csiro_recons_gmsl_yr_2015.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of GMSL calculation (YYYY)",
+            "format": "any",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "description": "Reconstructed Global Mean Sea Level in mm",
+            "name": "GMSL",
+            "type": "number"
+          },
+          {
+            "description": "Uncertainty due to reconstruction",
+            "name": "GMSL uncertainty",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 5933,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/cc8c7c5517e91452e6629ab30bfd3d68.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "epa-sea-level_original",
+      "path": "archive/epa-sea-level.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of measurement (YYYY)",
+            "format": "any",
+            "name": "Year",
+            "type": "date"
+          },
+          {
+            "description": "Comulative changes (in inches) in sea level for the world’s oceans based on the combination of long-term tide gauge measurements and recent satellite measurements.",
+            "name": "CSIRO Adjusted Sea Level",
+            "type": "number"
+          },
+          {
+            "description": "inches",
+            "name": "Lower Error Bound",
+            "type": "number"
+          },
+          {
+            "description": "inches",
+            "name": "Upper Error Bound",
+            "type": "number"
+          },
+          {
+            "description": "inches",
+            "name": "NOAA Adjusted Sea Level",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "bytes": 2468,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/validation_report/data/130fd963b94c618d749d76994a32e550/validation_report.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "130fd963b94c618d749d76994a32e550",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 4499,
+      "datahub": {
+        "derivedFrom": [
+          "csiro_alt_gmsl_mo_2015"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/csiro_alt_gmsl_mo_2015_csv/data/dc258c2039d8b640f74efd3d23e1c920/csiro_alt_gmsl_mo_2015_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "dc258c2039d8b640f74efd3d23e1c920",
+      "mediatype": "text/csv",
+      "name": "csiro_alt_gmsl_mo_2015_csv",
+      "path": "data/csiro_alt_gmsl_mo_2015_csv.csv",
+      "profile": "data-resource",
+      "rowcount": 266,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year and month of GMSL calculation (YYYY-MMM)",
+            "format": "%Y-%m-%d",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "description": "Global Mean Sea Level in mm",
+            "groupChar": "",
+            "name": "GMSL",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 382,
+      "datahub": {
+        "derivedFrom": [
+          "csiro_alt_gmsl_yr_2015"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/csiro_alt_gmsl_yr_2015_csv/data/7b10de35e4f3958bc38934af55dd2f68/csiro_alt_gmsl_yr_2015_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "7b10de35e4f3958bc38934af55dd2f68",
+      "mediatype": "text/csv",
+      "name": "csiro_alt_gmsl_yr_2015_csv",
+      "path": "data/csiro_alt_gmsl_yr_2015_csv.csv",
+      "profile": "data-resource",
+      "rowcount": 22,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of GMSL calculation (YYYY)",
+            "format": "%Y-%m-%d",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "description": "Global Mean Sea Level in mm",
+            "groupChar": "",
+            "name": "GMSL",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 36418,
+      "datahub": {
+        "derivedFrom": [
+          "csiro_recons_gmsl_mo_2015"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/csiro_recons_gmsl_mo_2015_csv/data/730bd7382bf3ce1e997becb2fadf40e6/csiro_recons_gmsl_mo_2015_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "730bd7382bf3ce1e997becb2fadf40e6",
+      "mediatype": "text/csv",
+      "name": "csiro_recons_gmsl_mo_2015_csv",
+      "path": "data/csiro_recons_gmsl_mo_2015_csv.csv",
+      "profile": "data-resource",
+      "rowcount": 1608,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year and month of GMSL calculation (YYYY-MMM)",
+            "format": "%Y-%m-%d",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "description": "Reconstructed Global Mean Sea Level in mm",
+            "groupChar": "",
+            "name": "GMSL",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "description": "uncertainty due to reconstruction",
+            "groupChar": "",
+            "name": "GMSL uncertainty",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 3062,
+      "datahub": {
+        "derivedFrom": [
+          "csiro_recons_gmsl_yr_2015"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/csiro_recons_gmsl_yr_2015_csv/data/4d8bd548c111eb2e89c3476f9b3e988d/csiro_recons_gmsl_yr_2015_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "4d8bd548c111eb2e89c3476f9b3e988d",
+      "mediatype": "text/csv",
+      "name": "csiro_recons_gmsl_yr_2015_csv",
+      "path": "data/csiro_recons_gmsl_yr_2015_csv.csv",
+      "profile": "data-resource",
+      "rowcount": 134,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of GMSL calculation (YYYY)",
+            "format": "%Y-%m-%d",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "description": "Reconstructed Global Mean Sea Level in mm",
+            "groupChar": "",
+            "name": "GMSL",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "description": "Uncertainty due to reconstruction",
+            "groupChar": "",
+            "name": "GMSL uncertainty",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 6879,
+      "datahub": {
+        "derivedFrom": [
+          "epa-sea-level"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/epa-sea-level_csv/data/3b80593cff34a90728cb51f8b11a19df/epa-sea-level_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "3b80593cff34a90728cb51f8b11a19df",
+      "mediatype": "text/csv",
+      "name": "epa-sea-level_csv",
+      "path": "data/epa-sea-level_csv.csv",
+      "profile": "data-resource",
+      "rowcount": 135,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of measurement (YYYY)",
+            "format": "%Y-%m-%d",
+            "name": "Year",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "description": "Comulative changes (in inches) in sea level for the world’s oceans based on the combination of long-term tide gauge measurements and recent satellite measurements.",
+            "groupChar": "",
+            "name": "CSIRO Adjusted Sea Level",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "description": "inches",
+            "groupChar": "",
+            "name": "Lower Error Bound",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "description": "inches",
+            "groupChar": "",
+            "name": "Upper Error Bound",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "description": "inches",
+            "groupChar": "",
+            "name": "NOAA Adjusted Sea Level",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 9809,
+      "datahub": {
+        "derivedFrom": [
+          "csiro_alt_gmsl_mo_2015"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/csiro_alt_gmsl_mo_2015_json/data/0150ffa2bd8a402081c630da7b70a131/csiro_alt_gmsl_mo_2015_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "0150ffa2bd8a402081c630da7b70a131",
+      "mediatype": "text/csv",
+      "name": "csiro_alt_gmsl_mo_2015_json",
+      "path": "data/csiro_alt_gmsl_mo_2015_json.json",
+      "profile": "data-resource",
+      "rowcount": 266,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year and month of GMSL calculation (YYYY-MMM)",
+            "format": "%Y-%m-%d",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "description": "Global Mean Sea Level in mm",
+            "name": "GMSL",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 812,
+      "datahub": {
+        "derivedFrom": [
+          "csiro_alt_gmsl_yr_2015"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/csiro_alt_gmsl_yr_2015_json/data/6bcdffba5d8239df0306de8938bbf567/csiro_alt_gmsl_yr_2015_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "6bcdffba5d8239df0306de8938bbf567",
+      "mediatype": "text/csv",
+      "name": "csiro_alt_gmsl_yr_2015_json",
+      "path": "data/csiro_alt_gmsl_yr_2015_json.json",
+      "profile": "data-resource",
+      "rowcount": 22,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of GMSL calculation (YYYY)",
+            "format": "%Y-%m-%d",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "description": "Global Mean Sea Level in mm",
+            "name": "GMSL",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 102319,
+      "datahub": {
+        "derivedFrom": [
+          "csiro_recons_gmsl_mo_2015"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/csiro_recons_gmsl_mo_2015_json/data/a2d8c6c3966cbedbd5679a6b5e38845f/csiro_recons_gmsl_mo_2015_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "a2d8c6c3966cbedbd5679a6b5e38845f",
+      "mediatype": "text/csv",
+      "name": "csiro_recons_gmsl_mo_2015_json",
+      "path": "data/csiro_recons_gmsl_mo_2015_json.json",
+      "profile": "data-resource",
+      "rowcount": 1608,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year and month of GMSL calculation (YYYY-MMM)",
+            "format": "%Y-%m-%d",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "description": "Reconstructed Global Mean Sea Level in mm",
+            "name": "GMSL",
+            "type": "number"
+          },
+          {
+            "description": "uncertainty due to reconstruction",
+            "name": "GMSL uncertainty",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 8529,
+      "datahub": {
+        "derivedFrom": [
+          "csiro_recons_gmsl_yr_2015"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/csiro_recons_gmsl_yr_2015_json/data/7a914a104e4360e3e364b111ed4aca40/csiro_recons_gmsl_yr_2015_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "7a914a104e4360e3e364b111ed4aca40",
+      "mediatype": "text/csv",
+      "name": "csiro_recons_gmsl_yr_2015_json",
+      "path": "data/csiro_recons_gmsl_yr_2015_json.json",
+      "profile": "data-resource",
+      "rowcount": 134,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of GMSL calculation (YYYY)",
+            "format": "%Y-%m-%d",
+            "name": "Time",
+            "type": "date"
+          },
+          {
+            "description": "Reconstructed Global Mean Sea Level in mm",
+            "name": "GMSL",
+            "type": "number"
+          },
+          {
+            "description": "Uncertainty due to reconstruction",
+            "name": "GMSL uncertainty",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 22375,
+      "datahub": {
+        "derivedFrom": [
+          "epa-sea-level"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmp30sktq0j/core/sea-level-rise/epa-sea-level_json/data/ac016d75688136c47a04ac70298e42ec/epa-sea-level_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "ac016d75688136c47a04ac70298e42ec",
+      "mediatype": "text/csv",
+      "name": "epa-sea-level_json",
+      "path": "data/epa-sea-level_json.json",
+      "profile": "data-resource",
+      "rowcount": 135,
+      "schema": {
+        "fields": [
+          {
+            "description": "Year of measurement (YYYY)",
+            "format": "%Y-%m-%d",
+            "name": "Year",
+            "type": "date"
+          },
+          {
+            "description": "Comulative changes (in inches) in sea level for the world’s oceans based on the combination of long-term tide gauge measurements and recent satellite measurements.",
+            "name": "CSIRO Adjusted Sea Level",
+            "type": "number"
+          },
+          {
+            "description": "inches",
+            "name": "Lower Error Bound",
+            "type": "number"
+          },
+          {
+            "description": "inches",
+            "name": "Upper Error Bound",
+            "type": "number"
+          },
+          {
+            "description": "inches",
+            "name": "NOAA Adjusted Sea Level",
+            "type": "number"
+          }
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 4556,
+      "dpp:streamedFrom": "/tmp/tmpeupmeo8j/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "sources": [
+    {
+      "name": "EPA (United States Environmental Protection Agency)",
+      "title": "EPA (United States Environmental Protection Agency)",
+      "web": "http://www3.epa.gov/climatechange/images/indicator_downloads/sea-level_fig-1.csv"
+    },
+    {
+      "name": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)",
+      "title": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)",
+      "web": "http://www.cmar.csiro.au/sealevel/GMSL_SG_2011_up.html"
+    }
+  ],
+  "title": "Global Average Absolute Sea Level Change, 1880-2014",
+  "views": [
+    {
+      "name": "graph",
+      "resources": [
+        "epa-sea-level"
+      ],
+      "spec": {
+        "group": "Year",
+        "series": [
+          "CSIRO Adjusted Sea Level",
+          "NOAA Adjusted Sea Level"
+        ],
+        "type": "line"
+      },
+      "specType": "simple"
+    }
+  ]
+}
