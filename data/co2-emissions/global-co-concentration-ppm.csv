@@ -1,4 +1,4 @@
-Entity,Code,Year,CO2 concentrations (NOAA (2017)) (parts per million)
+Entity,Code,Year,CO2 concentrations (NOAA (2019)) (parts per million)
 Global,,1980,338.8
 Global,,1981,339.99
 Global,,1982,340.76
@@ -36,3 +36,6 @@ Global,,2013,395.19
 Global,,2014,397.11
 Global,,2015,399.41
 Global,,2016,402.87
+Global,,2017,406.55
+Global,,2018,408.52
+Global,,2019,409.53
