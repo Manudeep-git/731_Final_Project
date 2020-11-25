@@ -15,19 +15,19 @@ Exploratory_Data_Analysis_UK
 We did classification of Temperature and Conditions for four major countries. 
 
 We used five classification models:
-
-<br>Linear SVC<br>
-<br>Decision Tree Classifier<br/>
-<br>KNN Classifier<br/>
-<br>Random Forest Classifier<br/>
-<br>Gaussian NB Classifier<br/>
+Linear SVC<br>
+Decision Tree Classifier<br/>
+KNN Classifier<br/>
+Random Forest Classifier<br/>
+Gaussian NB Classifier<br/>
 
 # Notebooks related to Classification:
 
-<br>Classification_UK<br/>
-<br>Classification_US<br/>
-<br>Classification_Australia<br/>
-<br>Classification_Russia<br/>
+Classification_UK<br/>
+Classification_US<br/>
+Classification_Australia<br/>
+Classification_Russia<br/>
 
+From all those classifiers Linear SVC and Guassian NB Classifiers performed consistently for all the countries used and gave better results.
 
 
