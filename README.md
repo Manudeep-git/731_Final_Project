@@ -2,7 +2,7 @@
 Predicting climate change depending on various features for the Final project
 
 
-Exploratory Data Analysis
+# Exploratory Data Analysis
 
 Notebooks related to Exploratory Data Analysis:
 
@@ -10,7 +10,7 @@ Exploratory_Data_Analysis_UK
 
 
 
-Classification
+# Classification
 
 We did classification of Temperature and Conditions for four major countries.
 
@@ -22,7 +22,7 @@ KNN Classifier
 Random Forest Classifier
 Gaussian NB Classifier
 
-Notebooks related to Classification:
+# Notebooks related to Classification:
 
 Classification_UK
 Classification_US
