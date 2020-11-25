@@ -16,7 +16,7 @@ We did classification of Temperature and Conditions for four major countries.
 
 We used five classification models:
 
-<br>Linear SVC<br/>
+<br>Linear SVC<br>
 <br>Decision Tree Classifier<br/>
 <br>KNN Classifier<br/>
 <br>Random Forest Classifier<br/>
