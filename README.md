@@ -30,4 +30,7 @@ Classification_Russia<br/>
 
 From all those classifiers Linear SVC and Guassian NB Classifiers performed consistently for all the countries used and gave better results.
 
+#Notebook for Time Series Forecasting
+ARIMA<br/>
 
+Predicted the Weather and Fuel Consumption values  for near future using ARIMA model.
