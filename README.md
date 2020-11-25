@@ -14,7 +14,7 @@ Exploratory_Data_Analysis_UK
 
 We did classification of Temperature and Conditions for four major countries. 
 
-We used five classification models:
+We used five classification models:<br>
 Linear SVC<br>
 Decision Tree Classifier<br/>
 KNN Classifier<br/>
