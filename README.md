@@ -64,6 +64,11 @@ Following models are used for Regression Purposes
 - [Russia](Notebooks/Regression/Russia/Russia_Regression.ipynb)
 - [United States](Notebooks/Regression/United%20States/United_States_regression.ipynb)
 
+
+### Results:
+![](https://github.com/SFLazarus/731_Final_Project/blob/main/Reports/Regression/comparison_of_models.png)
+
+
 ## Classification
 
 We did classification of Temperature and Conditions for four major countries. 
@@ -111,17 +116,7 @@ From all those classifiers Linear SVC and Guassian NB Classifiers performed cons
 Predicted the Weather and Fuel Consumption values  for near future using ARIMA model.
 
 ### Results:
-
-![](https://github.com/SFLazarus/731_Final_Project/blob/main/Reports/Time_series_Forecasting/Predictions/USA_Temp.png)
-
-![]()
-
-![]()
-
-![]()
-
-![]()
-
+![](https://github.com/SFLazarus/731_Final_Project/blob/main/Reports/Time_series_Forecasting/Predictions/Result.png)
 
 ---
 
