@@ -1,0 +1,13 @@
+Maximum Temperature - Max Temp of the whole day (deg F)
+Minimum Temperature - Min Temp of the whole day (deg F)
+Temperature- Average Temp (deg F)
+Wind Chill - the cooling effect of wind blowing on a surface(Temp a human feels becuase of heat is loss from the exposed skin)	(deg F)
+Heat Index - The Heat Index is a measure of how hot it really feels when relative humidity is factored in with the actual air temperature. (deg F)
+Precipitation - water that is falling out of the sky, this could be rain, drizzle, snow, sleet, hail or something rarer. (Inches)
+Snow Depth -  Determine the depth of the new and old snow remaining on the ground at observation time. (Inches)
+Wind Speed - Speed of wind in (Miles/hour)
+Wind Gust -  brief increase in the speed of the wind (Miles/hour) 
+Visibility - visibility is a measure of the distance at which an object or light can be clearly discerned (Miles)
+Cloud Cover - fraction of the sky obscured by clouds when observed from a particular location ()
+Relative Humidity - Relative humidity is the ratio of the partial pressure of water vapor to the equilibrium vapor pressure of water at a given temperature.
+Condition - Condition of the whole day.
