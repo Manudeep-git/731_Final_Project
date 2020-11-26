@@ -1,0 +1,5 @@
+- Python 3
+- Jupyter Notebook
+- Numpy
+- Pandas
+- Matplotlib
